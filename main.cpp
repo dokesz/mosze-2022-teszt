@@ -12,7 +12,7 @@ int main()
     }
     for (int i = 0; i; i++)
     {
-        std::cout << "Ertek:"   // hianyzo ; es ertek 
+        std::cout << "Ertek:" << b[i] << std::endl;
     }    
     std::cout << "Atlag szamitasa: " << std::endl;
     int atlag;
