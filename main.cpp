@@ -10,12 +10,12 @@ int main()
     {
         b[i] = i * 2;
     }
-    for (int i = 0; i; i++)  //utolag megtalalt hiba, itt is rossz a for ciklus
+    for (int i = 0; i < N_ELEMENTS + 1; i++)  
     {
         std::cout << "Ertek:" << b[i] << std::endl;
     }    
     std::cout << "Atlag szamitasa: " << std::endl;
-    int atlag;
+    int atlag = 0;
     for (int i = 0; i < N_ELEMENTS + 1; i++) 
     {
         atlag += b[i];
