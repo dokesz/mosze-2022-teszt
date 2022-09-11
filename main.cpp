@@ -10,7 +10,7 @@ int main()
     {
         b[i] = i * 2;
     }
-    for (int i = 0; i; i++)
+    for (int i = 0; i; i++)  //utolag megtalalt hiba, itt is rossz a for ciklus
     {
         std::cout << "Ertek:" << b[i] << std::endl;
     }    
