@@ -16,9 +16,9 @@ int main()
     }    
     std::cout << "Atlag szamitasa: " << std::endl;
     int atlag;
-    for (int i = 0; i < N_ELEMENTS, i++)  // , hasznalata ; helyett
+    for (int i = 0; i < N_ELEMENTS; i++) 
     {
-        atlag += b[i]
+        atlag += b[i];
     }
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
