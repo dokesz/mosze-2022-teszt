@@ -16,7 +16,7 @@ int main()
     }    
     std::cout << "Atlag szamitasa: " << std::endl;
     int atlag;
-    for (int i = 0; i < N_ELEMENTS; i++) 
+    for (int i = 0; i < N_ELEMENTS + 1; i++) 
     {
         atlag += b[i];
     }
