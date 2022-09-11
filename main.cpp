@@ -4,7 +4,7 @@
 
 int main()
 {
-    int *b = new int[NELEMENTS]; // elgepelt valtozo
+    int *b = new int[N_ELEMENTS]; 
     std::cout << '1-100 ertekek duplazasa'
     for (int i = 0;)   // felig kesz for ciklus
     {
